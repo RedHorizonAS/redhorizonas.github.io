@@ -5,8 +5,8 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from '~/components/ui/accordion';
-import { Button, buttonVariants } from '~/components/ui/button';
+} from '@/components/ui/accordion';
+import { Button, buttonVariants } from '@/components/ui/button';
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -15,15 +15,15 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
-} from '~/components/ui/navigation-menu';
+} from '@/components/ui/navigation-menu';
 import {
   Sheet,
   SheetContent,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from '~/components/ui/sheet';
-import { cn } from '~/lib/utils';
+} from '@/components/ui/sheet';
+import { cn } from '@/lib/utils';
 
 const subMenuItemsOne = [
   {
