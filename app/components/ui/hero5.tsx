@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 
 import { motion } from "framer-motion";
 
-import { MoveRight, PhoneCall } from "lucide-react";
+import { MoveRight, Goal } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export const Hero5 = () => {
@@ -71,9 +71,11 @@ export const Hero5 = () => {
             </p>
           </div>
           <div className="flex flex-row gap-3">
-            {/* <Button size="lg" className="gap-4" variant="outline">
-              Jump on a call <PhoneCall className="w-4 h-4" />
-            </Button> */}
+            <a href="services">
+                <Button size="lg" className="gap-4" variant="outline">
+                SAM1 <Goal className="w-4 h-4" />
+                </Button>
+            </a>
             <a href="contact">
                 <Button size="lg" className="gap-4">
                 Contact us <MoveRight className="w-4 h-4" />
