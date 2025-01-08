@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 export const Hero5 = () => {
   const [titleNumber, setTitleNumber] = useState(0);
   const titles = useMemo(
-    () => ["efficiency", "complexity", "control", "accuracy"],
+    () => ["efficiency", "complexity", "simplicity", "accuracy"],
     []
   );
 
@@ -27,11 +27,6 @@ export const Hero5 = () => {
     <div className="w-full">
       <div className="container mx-auto">
         <div className="flex gap-8 py-20 lg:py-40 items-center justify-center flex-col">
-          {/* <div>
-            <Button variant="secondary" size="sm" className="gap-4">
-              Contact us <MoveRight className="w-4 h-4" />
-            </Button>
-          </div> */}
           <div className="flex gap-4 flex-col">
             <h1 className="text-5xl md:text-7xl max-w-2xl tracking-tighter text-center font-regular">
               <span className="text-spektr-cyan-50">Enhance emitter-training with increased</span>
@@ -62,12 +57,9 @@ export const Hero5 = () => {
             </h1>
 
             <p className="text-lg md:text-xl leading-relaxed tracking-tight text-muted-foreground max-w-2xl text-center">
-              Utilizing gaps of manual work, pour some digitalization on it and
-              experience increased value to your training. We are here to help
-              streamlining your technology-chain. We focus on usecases specifically
-              towards the airforce, but are open-minded to other defence-realted 
-              usecases as-well. Our goal is to streamline complex military training, 
-              making it easier and faster than ever.
+              Leverage the potential of digitalization to bridge the gaps in manual workflows and unlock greater value in your training operations. Our mission is to streamline your technology chain, enabling smoother, faster, and more efficient processes.
+              With a specialized focus on air force applications, we also welcome collaboration on other defense-related use cases. Our ultimate goal is to simplify complex military training scenarios, making them more effective, adaptive, and impactful than ever before.
+              Experience the future of defense training—elevated with innovation and precision.
             </p>
           </div>
           <div className="flex flex-row gap-3">
