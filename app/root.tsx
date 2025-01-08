@@ -5,7 +5,7 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
-import type { LinksFunction } from "@remix-run/node";
+import type { LinksFunction, MetaFunction } from "@remix-run/node";
 
 import "./index.css";
 
@@ -20,7 +20,16 @@ export const links: LinksFunction = () => [
     rel: "stylesheet",
     href: "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
   },
+  { rel: "icon", href: "/favicon_rh.ico" },
 ];
+
+export const meta: MetaFunction = () => {
+  return [
+    { title: "Red Horizon" },
+    { name: "Red Horizon AS", content: "Welcome to Red Horizon" },
+  ];
+};
+
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (

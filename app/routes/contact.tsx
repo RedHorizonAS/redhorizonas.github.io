@@ -1,6 +1,7 @@
 import Layout from "@/components/Layout";
+import { FAQ1 } from "@/components/ui/faq1";
 
-export default function About() {
+export default function Contact() {
   return (
     <Layout>
       <div>
@@ -8,6 +9,7 @@ export default function About() {
         <p className="mt-4">
           We specialize in making military training more efficient and effective through innovative SaaS services.
         </p>
+        <FAQ1 />
       </div>
     </Layout>
   );

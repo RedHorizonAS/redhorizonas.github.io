@@ -14,7 +14,7 @@ const Feature74 = () => {
             consequatur. Explicabo.
           </p>
           <a
-            href="#"
+            href="/contact"
             className="group flex items-center text-xs font-medium md:text-base lg:text-lg"
           >
             Book a demo{' '}
