@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 export const Hero5 = () => {
   const [titleNumber, setTitleNumber] = useState(0);
   const titles = useMemo(
-    () => ["efficiency", "complexity", "simplicity", "accuracy"],
+    () => ["efficiency", "complexity", "adaptability", "accuracy"],
     []
   );
 
@@ -57,9 +57,10 @@ export const Hero5 = () => {
             </h1>
 
             <p className="text-lg md:text-xl leading-relaxed tracking-tight text-muted-foreground max-w-2xl text-center">
-              Leverage the potential of digitalization to bridge the gaps in manual workflows and unlock greater value in your training operations. Our mission is to streamline your technology chain, enabling smoother, faster, and more efficient processes.
+              Unlock the full potential of digitalization to enhance your training operations. Our innovative software remotely controls ground-based emitters, sending simulated threat signals to fighter jets in real-time. This solution reduces manpower requirements, accelerates response times, and simplifies complex training scenarios.
+              {/* Leverage the potential of digitalization to bridge the gaps in manual workflows and unlock greater value in your training operations. Our mission is to streamline your technology chain, enabling smoother, faster, and more efficient processes.
               With a specialized focus on air force applications, we also welcome collaboration on other defense-related use cases. Our ultimate goal is to simplify complex military training scenarios, making them more effective, adaptive, and impactful than ever before.
-              Experience the future of defense training—elevated with innovation and precision.
+              Experience the future of defense training—elevated with innovation and precision. */}
             </p>
           </div>
           <div className="flex flex-row gap-3">

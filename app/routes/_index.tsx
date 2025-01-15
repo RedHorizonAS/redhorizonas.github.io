@@ -19,9 +19,16 @@ export default function Index() {
                 className="w-full h-auto"
               />
             </div>
-            <p className="text-2xl text-gray-800 dark:text-gray-200 font-semibold">
-              Enhance quality in military training
+            <div className="max-w-2xl text-center text-gray-800 dark:text-gray-300 ">
+            <p className="text-2xl font-semibold">
+              {/* Enhance quality in military training */}
+              Our Mission: Streamline and Innovate
             </p>
+            <p className="text-xl">
+              We aim to revolutionize your technology chain, making processes smoother, faster, and more efficient. 
+              While we specialize in air force applications, we are open to collaborating on other defense-related projects.
+              </p>
+            </div>
             <div className="w-full max-w-[434px]">
               <img
                 src="/scenario.jpeg"
