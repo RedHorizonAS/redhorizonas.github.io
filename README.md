@@ -15,16 +15,12 @@ start:
 `bun run dev`
 
 packages: 
-`bunx --bun shadcn@latest add carousel`
+`bun add framer-motion`
 
 shadcn: 
-`bun add framer-motion`
+`bunx --bun shadcn@latest add carousel`
 
 ## Deploy
 Hosted on github pages
 
-?bun build/client
-?bun run
-
-## Links
-https://vercel.com/red-horizon
+`bun run deploy`
