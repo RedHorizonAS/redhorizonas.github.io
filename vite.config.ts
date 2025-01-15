@@ -28,4 +28,9 @@ export default defineConfig({
   //     cert: './dev.crt',
   //   },
   // },
+  // GITHUB PAGES
+  base: '/', // Root domain deployment
+  build: {
+    outDir: 'dist', // Default output directory
+  },
 });
