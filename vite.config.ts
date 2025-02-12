@@ -22,10 +22,5 @@ export default defineConfig({
     }),
     tsconfigPaths(),
   ],
-  // server: {
-  //   https: {
-  //     key: './dev.key',
-  //     cert: './dev.crt',
-  //   },
-  // },
+  base: "https://redhorizonas.github.io/",
 });
