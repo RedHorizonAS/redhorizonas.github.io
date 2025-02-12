@@ -22,5 +22,5 @@ export default defineConfig({
     }),
     tsconfigPaths(),
   ],
-  base: "https://redhorizonas.github.io/",
+  base: "/",
 });
