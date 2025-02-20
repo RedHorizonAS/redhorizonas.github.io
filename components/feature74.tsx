@@ -1,3 +1,4 @@
+"use client"
 import { MoveRight } from 'lucide-react';
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -11,11 +12,11 @@ export const Feature74 = () => {
             About us
           </h2>
           <p className="mb-8 text-muted-foreground lg:text-lg">
-          We are a team of four seasoned professionals with decades of combined experience and a passion for innovation. 
-          Our maturity and expertise, coupled with fresh ideas, enable us to tackle complex challenges in the air defense sector. 
-          Our mission is to enhance military training by safely unclassifying and hosting services on the internet, driving innovation while protecting sensitive information. 
-          Committed to excellence, we support defense teams with tools that save time, resources, and lives. 
-          We are here to help.
+            We are a team of four seasoned professionals with decades of combined experience and a passion for innovation.
+            Our maturity and expertise, coupled with fresh ideas, enable us to tackle complex challenges in the air defense sector.
+            Our mission is to enhance military training by safely unclassifying and hosting services on the internet, driving innovation while protecting sensitive information.
+            Committed to excellence, we support defense teams with tools that save time, resources, and lives.
+            We are here to help.
             {/* We are a team of four seasoned professionals with decades of combined experience and a shared passion for innovation. As a middle-aged team, we bring together maturity, expertise, and fresh ideas to tackle complex challenges in the air defense sector.
             Our mission is to revolutionize military training by identifying which services can safely be unclassified and hosted on the internet. This approach makes it easier to drive innovation and develop better solutions while ensuring that sensitive, classified information remains secure and appropriately protected.
             Driven by our commitment to excellence and a strong belief in the power of technology to make a difference, we’re dedicated to supporting defense teams with tools that save time, resources, and lives.

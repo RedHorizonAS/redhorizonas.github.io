@@ -1,3 +1,4 @@
+"use client"
 import { Badge } from "@/components/ui/badge";
 import {
   Carousel,
@@ -8,11 +9,11 @@ import {
 } from "@/components/ui/carousel";
 
 const imagePaths = [
-    '/sam1/scenario.png',
-    '/sam1/scenarios.png',
-    '/sam1/debrief-log.png',
-    '/sam1/emitter-control.png',
-  ];
+  '/sam1/scenario.png',
+  '/sam1/scenarios.png',
+  '/sam1/debrief-log.png',
+  '/sam1/emitter-control.png',
+];
 
 export const Feature8 = () => (
   <div className="w-full py-20 lg:py-40">
@@ -27,10 +28,10 @@ export const Feature8 = () => (
               Run prebuild scenarios for your pilots in realtime
             </h2>
             <p className="text-lg  max-w-xl lg:max-w-sm leading-relaxed tracking-tight text-muted-foreground  text-left">
-            Create and execute complex training scenarios in real-time with our advanced software. 
-            Say goodbye to manual interventions and streamline your operations. 
-            Our solution eliminates the need for personnel to manually activate systems, allowing facilitating personel to focus on critical tasks. 
-            This results in faster response times for pilots and the ability to conduct more sophisticated training exercises.
+              Create and execute complex training scenarios in real-time with our advanced software.
+              Say goodbye to manual interventions and streamline your operations.
+              Our solution eliminates the need for personnel to manually activate systems, allowing facilitating personel to focus on critical tasks.
+              This results in faster response times for pilots and the ability to conduct more sophisticated training exercises.
               {/* Build complex scenarios and play them in realtime. 
               No more man-in-the-woods-to-flip-a-switch.
               Offload work for your SAM-personell, increased responstime for pilots and do more complex scenarios. */}
@@ -39,18 +40,18 @@ export const Feature8 = () => (
         </div>
         <div className="w-full max-w-full px-6">
           <Carousel>
-          <CarouselContent>
-            {imagePaths.map((path, index) => (
+            <CarouselContent>
+              {imagePaths.map((path, index) => (
                 <CarouselItem key={index}>
-                <div className="flex rounded-md aspect-video bg-muted items-center justify-center p-6">
+                  <div className="flex rounded-md aspect-video bg-muted items-center justify-center p-6">
                     <img
-                    src={path}
-                    alt={`Platform Screenshot ${index + 1}`}
-                    className="w-full h-auto object-contain"
+                      src={path}
+                      alt={`Platform Screenshot ${index + 1}`}
+                      className="w-full h-auto object-contain"
                     />
-                </div>
+                  </div>
                 </CarouselItem>
-            ))}
+              ))}
             </CarouselContent>
             <CarouselPrevious />
             <CarouselNext />

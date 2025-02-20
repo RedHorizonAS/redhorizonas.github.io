@@ -1,3 +1,4 @@
+"use client"
 import { Mail } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -23,7 +24,7 @@ export const FAQ1 = () => (
               </p>
             </div>
             <a href="mailto:contact@redhorizon.no">
-              
+
               <Button className="gap-4" variant="outline">
                 Reach out <Mail className="w-4 h-4" />
               </Button>
@@ -32,7 +33,7 @@ export const FAQ1 = () => (
         </div>
         <Accordion type="single" collapsible className="w-full">
           <div>
-              <Badge variant="outline">FAQ</Badge>
+            <Badge variant="outline">FAQ</Badge>
           </div>
           {resources.map(({ question, answer }, index) => (
             <AccordionItem key={index} value={"index-" + index}>
