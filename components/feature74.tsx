@@ -2,6 +2,7 @@
 import { MoveRight } from 'lucide-react';
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import Image from 'next/image';
 
 export const Feature74 = () => {
   return (
@@ -27,7 +28,7 @@ export const Feature74 = () => {
           {resources.map(({ title, name, text, img, href }) => (
             <div key={name} className="flex flex-col text-clip rounded-xl border border-border md:col-span-2 md:grid md:grid-cols-2 md:gap-6 lg:gap-8">
               <div className="md:min-h-96 lg:min-h-[28rem] xl:min-h-[32rem]">
-                <img
+                <Image
                   src={img}
                   alt={name}
                   className="aspect-[16/9] size-full object-cover object-center"

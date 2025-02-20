@@ -7,6 +7,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import Image from "next/image";
 
 const imagePaths = [
   '/sam1/scenario.png',
@@ -44,7 +45,7 @@ export const Feature8 = () => (
               {imagePaths.map((path, index) => (
                 <CarouselItem key={index}>
                   <div className="flex rounded-md aspect-video bg-muted items-center justify-center p-6">
-                    <img
+                    <Image
                       src={path}
                       alt={`Platform Screenshot ${index + 1}`}
                       className="w-full h-auto object-contain"

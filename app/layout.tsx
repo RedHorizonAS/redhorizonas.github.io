@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
+import Image from "next/image";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,7 +35,7 @@ export default function RootLayout({
               {/* Brand / Logo */}
               <h1 className="text-lg font-bold">
                 <Link href="/">
-                  <img
+                  <Image
                     src="/red_horizon.png"
                     alt="Red Horizon"
                     className="w-full"
