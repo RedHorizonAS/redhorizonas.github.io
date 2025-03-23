@@ -10,19 +10,8 @@ export const Feature74 = () => {
           <h2 className="mb-3 text-xl md:mb-4 md:text-4xl lg:mb-6">
             About us
           </h2>
-          <p className="mb-8 text-muted-foreground lg:text-lg">
-          We are a team of four seasoned professionals with decades of combined experience and a passion for innovation. 
-          Our maturity and expertise, coupled with fresh ideas, enable us to tackle complex challenges in the air defense sector. 
-          Our mission is to enhance military training by safely unclassifying and hosting services on the internet, driving innovation while protecting sensitive information. 
-          Committed to excellence, we support defense teams with tools that save time, resources, and lives. 
-          We are here to help.
-            {/* We are a team of four seasoned professionals with decades of combined experience and a shared passion for innovation. As a middle-aged team, we bring together maturity, expertise, and fresh ideas to tackle complex challenges in the air defense sector.
-            Our mission is to revolutionize military training by identifying which services can safely be unclassified and hosted on the internet. This approach makes it easier to drive innovation and develop better solutions while ensuring that sensitive, classified information remains secure and appropriately protected.
-            Driven by our commitment to excellence and a strong belief in the power of technology to make a difference, we’re dedicated to supporting defense teams with tools that save time, resources, and lives.
-            Welcome to the future of air defense training—crafted by a team that’s ready to make an impact. */}
-          </p>
         </div>
-        <div className="grid gap-6 md:grid-cols-2 lg:gap-8">
+        {/* <div className="grid gap-6 md:grid-cols-2 lg:gap-8">
           {resources.map(({ title, name, text, img, href }) => (
             <div key={name} className="flex flex-col text-clip rounded-xl border border-border md:col-span-2 md:grid md:grid-cols-2 md:gap-6 lg:gap-8">
               <div className="md:min-h-96 lg:min-h-[28rem] xl:min-h-[32rem]">
@@ -54,7 +43,7 @@ export const Feature74 = () => {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );
@@ -63,30 +52,9 @@ export const Feature74 = () => {
 const resources = [
   {
     title: "CEO",
-    name: "Erlend",
+    name: "CEO",
     img: "https://www.shadcnblocks.com/images/block/placeholder-1.svg",
-    text: "Wake up in the morning - Worked in the Defence and the sector for several years, and now urges to help them out.",
-    href: "/contact"
-  },
-  {
-    title: "Developer",
-    name: "Julian",
-    img: "https://www.shadcnblocks.com/images/block/placeholder-2.svg",
-    text: "Just do it - Several years working in the defence with IT. Learned a lot, and strives to create solutions with big user value.",
-    href: "/contact"
-  },
-  {
-    title: "Developer",
-    name: "Thomas",
-    img: "https://www.shadcnblocks.com/images/block/placeholder-3.svg",
-    text: "If it looks good, it feels good - Experience in webdevelopment in defence-sector. Always looking for the best solution.",
-    href: "/contact"
-  },
-  {
-    title: "Developer",
-    name: "Magnus",
-    img: "https://www.shadcnblocks.com/images/block/placeholder-4.svg",
-    text: "Intuitive and efficient: Tailored solutions for defense training needs",
+    text: "CEO",
     href: "/contact"
   },
 ];

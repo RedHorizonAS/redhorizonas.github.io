@@ -5,7 +5,7 @@ import { Link } from "@remix-run/react";
 
 export default function Layout({ children }: { children: ReactNode }) {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col gap-8">
       {/* Header */}
       <header className="bg-gray-800 text-white shadow">
         <nav className="container mx-auto p-4 flex justify-between items-center">
@@ -15,13 +15,13 @@ export default function Layout({ children }: { children: ReactNode }) {
             <img
               src="/red_horizon.png"
               alt="Red Horizon"
-              className="w-full"
+              className="w-full max-w-40"
             />
             </Link>
           </h1>
           
           {/* Navigation Links */}
-          <ul className="flex space-x-4">
+          <ul className="flex space-x-4 text-spektr-cyan-50 tracking-tighter text-center font-regular">
             <li>
               <Link to="/services" className="hover:underline">
                 Services
@@ -42,7 +42,7 @@ export default function Layout({ children }: { children: ReactNode }) {
       </header>
 
       {/* Dynamic Content */}
-      <main className="flex-grow container mx-auto p-6">{children}</main>
+      <main className="flex-grow container mx-auto p-4">{children}</main>
 
       {/* Footer */}
       <footer className="bg-gray-900 text-white text-center p-4">

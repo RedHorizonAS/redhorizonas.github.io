@@ -8,7 +8,8 @@ import { Button } from "@/components/ui/button";
 export const Hero5 = () => {
   const [titleNumber, setTitleNumber] = useState(0);
   const titles = useMemo(
-    () => ["efficiency", "complexity", "adaptability", "accuracy"],
+    // () => ["efficiency", "complexity", "adaptability", "accuracy"],
+    () => ["realistic training", "remote control", "adaptive scenarios", "automated debriefs", "cost-efficiency"],
     []
   );
 
@@ -26,10 +27,10 @@ export const Hero5 = () => {
   return (
     <div className="w-full">
       <div className="container mx-auto">
-        <div className="flex gap-8 py-20 lg:py-40 items-center justify-center flex-col">
+        <div className="flex gap-8 py-4 lg:py-8 items-center justify-center flex-col">
           <div className="flex gap-4 flex-col">
             <h1 className="text-5xl md:text-7xl max-w-2xl tracking-tighter text-center font-regular">
-              <span className="text-spektr-cyan-50">Enhance emitter-training with increased</span>
+              <span className="text-spektr-cyan-50">Next-level emitter training with</span>
               <span className="relative flex w-full justify-center overflow-hidden text-center md:pb-4 md:pt-1">
                 &nbsp;
                 {titles.map((title, index) => (
