@@ -65,12 +65,12 @@ export const Hero5 = () => {
             </p>
           </div>
           <div className="flex flex-row gap-3">
-            <a href="services">
+            <a href="/services">
                 <Button size="lg" className="gap-4" variant="outline">
                 SAM1 <Goal className="w-4 h-4" />
                 </Button>
             </a>
-            <a href="contact">
+            <a href="/contact">
                 <Button size="lg" className="gap-4">
                 Contact us <MoveRight className="w-4 h-4" />
                 </Button>

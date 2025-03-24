@@ -27,11 +27,11 @@ export default function Layout({ children }: { children: ReactNode }) {
                 Services
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/about" className="hover:underline">
                 About
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link to="/contact" className="hover:underline">
                 Contact
