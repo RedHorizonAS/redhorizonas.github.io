@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 
 import { MoveRight, Goal } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "@remix-run/react";
 
 export const Hero5 = () => {
   const [titleNumber, setTitleNumber] = useState(0);
@@ -65,16 +66,16 @@ export const Hero5 = () => {
             </p>
           </div>
           <div className="flex flex-row gap-3">
-            <a href="/services">
+            <Link to="/services">
                 <Button size="lg" className="gap-4" variant="outline">
                 SAM1 <Goal className="w-4 h-4" />
                 </Button>
-            </a>
-            <a href="/contact">
+            </Link>
+            <Link to="/contact">
                 <Button size="lg" className="gap-4">
                 Contact us <MoveRight className="w-4 h-4" />
                 </Button>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
