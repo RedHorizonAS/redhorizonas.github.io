@@ -1,8 +1,8 @@
 'use client'
 
 import { useState, useEffect } from "react";
-import { Zap } from "lucide-react";
 import Link from "next/link";
+import { RedHorizonLogoNeg } from "./landing/logo";
 
 const Navbar = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -25,15 +25,17 @@ const Navbar = () => {
             <div className="container mx-auto">
                 <div className="flex items-center justify-between">
                     <Link href="/">
-                        <div className="flex items-center gap-2">
-                            <Zap size={24} className="text-tech-red" />
-                            <span className="text-xl font-bold">Red Horizon</span>
+
+                        <div className="flex items-center gap-2 w-[250px]">
+
+                            <RedHorizonLogoNeg />
+
                         </div>
                     </Link>
                     <div className="hidden md:flex items-center gap-8">
                         <Link href="/#solutions" className="text-tech-lightGray hover:text-white transition-colors">Solutions</Link>
-                        <Link href="/#about" className="text-tech-lightGray hover:text-white transition-colors">About</Link>
                         <Link href="/#keypoints" className="text-tech-lightGray hover:text-white transition-colors">Key Focus</Link>
+                        <Link href="/#about" className="text-tech-lightGray hover:text-white transition-colors">About</Link>
                         <Link href="/#contact" className="text-tech-lightGray hover:text-white transition-colors">Contact</Link>
                     </div>
 
