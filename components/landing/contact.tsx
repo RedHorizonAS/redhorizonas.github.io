@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 
 import { Mail } from "lucide-react";
-import { FAQ } from "./faq";
 
 const Contact = () => {
     return (
