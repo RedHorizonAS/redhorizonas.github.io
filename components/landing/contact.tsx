@@ -18,23 +18,25 @@ const Contact = () => {
                             </p>
                         </div>
 
-                        <div className="space-y-5 pt-4">
-                            {/* <div className="space-y-2">
+
+                    </div>
+                    <div className="space-y-5 pt-4">
+                        {/* <div className="space-y-2">
                                 <h3 className="text-xl font-semibold">Our Office</h3>
                                 <p className="text-tech-mediumGray">
                                     1234 Innovation Drive, Tech City, TC 98765
                                 </p>
                             </div> */}
 
-                            <div className="space-y-2">
-                                <a href="mailto:contact@redhorizon.no">
-                                    <Button className="w-1/2 bg-tech-red hover:bg-tech-red/90 text-white group">
-                                        Reach out <Mail className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                        <div className="space-y-2">
+                            <a href="mailto:contact@redhorizon.no">
+                                <Button className="w-1/2 bg-tech-red hover:bg-tech-red/90 text-white group">
+                                    Reach out <Mail className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
 
-                                    </Button>
-                                </a>
-                            </div>
-                            {/* 
+                                </Button>
+                            </a>
+                        </div>
+                        {/* 
                             <div className="space-y-2">
                                 <h3 className="text-xl font-semibold">Business Hours</h3>
                                 <p className="text-tech-mediumGray">
@@ -42,11 +44,10 @@ const Contact = () => {
                                     Saturday - Sunday: Closed
                                 </p>
                             </div> */}
-                        </div>
                     </div>
-                    <div className="lg:col-span-2">
+                    {/* <div className="lg:col-span-2">
                         <FAQ />
-                    </div>
+                    </div> */}
 
                     <div>
 
